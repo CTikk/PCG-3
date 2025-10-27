@@ -13,42 +13,303 @@ MonoBehaviour:
   m_Name: TileSet
   m_EditorClassIdentifier: 
   tiles:
-  - id: grass
+  - id: grass1
     sprite: {fileID: 21300000, guid: 031e104e4ab39c34cb636510dda1540b, type: 3}
     rotatable: 0
     north:
     - grass
-    - road_ns
-    - road_ew
+    - grass2
+    - grass_en
+    - grass_sand_du
+    - grass_we
+    - grass_wen
+    - grass_wn
     south:
-    - grass
-    - road_ns
-    - road_ew
+    - grass1
+    - grass2
+    - grass_es
+    - grass_we
+    - grass_wes
+    - grass_ws
+    - sand_grass_du
     east:
-    - grass
-    - road_ns
-    - road_ew
+    - grass1
+    - grass2
+    - grass_en
+    - grass_es
+    - grass_nes
+    - grass_sand_lr
+    - grass_sn
     west:
-    - grass
-    - road_ns
-    - road_ew
+    - grass1
+    - grass2
+    - grass_nws
+    - grass_sn
+    - grass_wn
+    - grass_ws
+    - sand_grass_lr
     weight: 0
-  - id: grass
-    sprite: {fileID: 21300000, guid: 031e104e4ab39c34cb636510dda1540b, type: 3}
+  - id: grass2
+    sprite: {fileID: 21300000, guid: bab314914b0d269409c7cff8d3a4191d, type: 3}
     rotatable: 0
     north:
     - grass
-    - road_ns
-    - road_ew
+    - grass2
+    - grass_en
+    - grass_sand_du
+    - grass_we
+    - grass_wen
+    - grass_wn
     south:
-    - grass
-    - road_ns
-    - road_ew
+    - grass1
+    - grass2
+    - grass_es
+    - grass_we
+    - grass_wes
+    - grass_ws
+    - sand_grass_du
     east:
-    - grass
-    - road_ns
-    - road_ew
+    - grass1
+    - grass2
+    - grass_en
+    - grass_es
+    - grass_nes
+    - grass_sand_lr
+    - grass_sn
     west:
-    - grass
-    - road_ns
+    - grass1
+    - grass2
+    - grass_nws
+    - grass_sn
+    - grass_wn
+    - grass_ws
+    - sand_grass_lr
+    weight: 0
+  - id: grass_4
+    sprite: {fileID: 21300000, guid: 64dec05c9d827e5438cd0b8538722d8b, type: 3}
+    rotatable: 0
+    north:
+    - grass_4
+    - grass_cross
+    - grass_es
+    - grass_nes
+    - grass_nws
+    - grass_sand_sn
+    - grass_sand_sn_2
+    - grass_sn
+    - grass_wes
+    - grass_ws
+    south:
+    - grass_4
+    - grass_cross
+    - grass_en
+    - grass_nes
+    - grass_nws
+    - grass_sn
+    - grass_wen
+    - grass_wn
+    - sand_grass_sn
+    - sand_grass_sn_2
+    east:
+    - grass_4
+    - grass_cross
+    - grass_nws
+    - grass_sand_we
+    - grass_sand_we_2
+    - grass_we
+    - grass_wen
+    - grass_wes
+    - grass_wn
+    - grass_ws
+    west:
+    - grass_4
+    - grass_cross
+    - grass_en
+    - grass_es
+    - grass_nes
+    - grass_we
+    - grass_wen
+    - grass_wes
+    - sand_grass_we
+    - sand_grass_we_2
+    weight: 0
+  - id: grass_cross
+    sprite: {fileID: 21300000, guid: 19cf77db2ec1c29418a84939001dd050, type: 3}
+    rotatable: 0
+    north:
+    - grass_4
+    - grass_cross
+    - grass_es
+    - grass_nes
+    - grass_nws
+    - grass_sand_sn
+    - grass_sand_sn_2
+    - grass_sn
+    - grass_wes
+    - grass_ws
+    south:
+    - grass_4
+    - grass_cross
+    - grass_en
+    - grass_nes
+    - grass_nws
+    - grass_sn
+    - grass_wen
+    - grass_wn
+    - sand_grass_sn
+    - sand_grass_sn_2
+    east:
+    - grass_4
+    - grass_cross
+    - grass_nws
+    - grass_sand_we
+    - grass_sand_we_2
+    - grass_we
+    - grass_wen
+    - grass_wes
+    - grass_wn
+    - grass_ws
+    west:
+    - grass_4
+    - grass_cross
+    - grass_en
+    - grass_es
+    - grass_nes
+    - grass_we
+    - grass_wen
+    - grass_wes
+    - sand_grass_we
+    - sand_grass_we_2
+    weight: 0
+  - id: grass_en
+    sprite: {fileID: 21300000, guid: ece565dc876625d4fa588c3d33881c5f, type: 3}
+    rotatable: 0
+    north:
+    - grass_4
+    - grass_cross
+    - grass_es
+    - grass_nes
+    - grass_nws
+    - grass_sand_sn
+    - grass_sand_sn_2
+    - grass_sn
+    - grass_wes
+    - grass_ws
+    south:
+    - grass1
+    - grass2
+    - grass_es
+    - grass_we
+    - grass_wes
+    - grass_ws
+    - sand_grass_du
+    east:
+    - grass_4
+    - grass_cross
+    - grass_nws
+    - grass_sand_we
+    - grass_sand_we_2
+    - grass_we
+    - grass_wen
+    - grass_wes
+    - grass_wn
+    - grass_ws
+    west:
+    - grass1
+    - grass2
+    - grass_nws
+    - grass_sn
+    - grass_wn
+    - grass_ws
+    - sand_gras_lr
+    weight: 0
+  - id: grass_es
+    sprite: {fileID: 21300000, guid: 67626e74894070f43812f821886bfa23, type: 3}
+    rotatable: 0
+    north:
+    - grass1
+    - grass2
+    - grass_en
+    - grass_sand_du
+    - grass_we
+    - grass_wen
+    - grass_wn
+    south:
+    - grass_4
+    - grass_cross
+    - grass_en
+    - grass_nes
+    - grass_nws
+    - grass_sn
+    - grass_wen
+    - grass_wn
+    - sand_grass_sn
+    - sand_grass_sn_2
+    east:
+    - grass_4
+    - grass_cross
+    - grass_nws
+    - grass_sand_we
+    - grass_sand_we_2
+    - grass_we
+    - grass_wen
+    - grass_wes
+    - grass_wn
+    - grass_ws
+    west:
+    - grass1
+    - grass2
+    - grass_nws
+    - grass_sn
+    - grass_wn
+    - grass_ws
+    - sand_grass_lr
+    weight: 0
+  - id: grass_cross
+    sprite: {fileID: 21300000, guid: 19cf77db2ec1c29418a84939001dd050, type: 3}
+    rotatable: 0
+    north:
+    - grass_4
+    - grass_cross
+    - grass_es
+    - grass_nes
+    - grass_nws
+    - grass_sand_sn
+    - grass_sand_sn_2
+    - grass_sn
+    - grass_wes
+    - grass_ws
+    south:
+    - grass_4
+    - grass_cross
+    - grass_en
+    - grass_nes
+    - grass_nws
+    - grass_sn
+    - grass_wen
+    - grass_wn
+    - sand_grass_sn
+    - sand_grass_sn_2
+    east:
+    - grass_4
+    - grass_cross
+    - grass_nws
+    - grass_sand_we
+    - grass_sand_we_2
+    - grass_we
+    - grass_wen
+    - grass_wes
+    - grass_wn
+    - grass_ws
+    west:
+    - grass_4
+    - grass_cross
+    - grass_en
+    - grass_es
+    - grass_nes
+    - grass_we
+    - grass_wen
+    - grass_wes
+    - sand_grass_we
+    - sand_grass_we_2
     weight: 0

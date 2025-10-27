@@ -15,7 +15,7 @@ C:/Users/norik/source/repos/PCG-2-Valentine_Sierra
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50314
+50202
 Successfully changed project path to: C:/Users/norik/source/repos/PCG-2-Valentine_Sierra
 C:/Users/norik/source/repos/PCG-2-Valentine_Sierra
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/norik/source/repos/PCG-2-Valentine_Sierra
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8924]  Target information:
+Player connection [23004]  Target information:
 
-Player connection [8924]  * "[IP] 172.16.65.35 [Port] 0 [Flags] 2 [Guid] 2560395354 [EditorId] 2560395354 [Version] 1048832 [Id] WindowsEditor(7,ImpulseTufF15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23004]  * "[IP] 172.16.65.35 [Port] 0 [Flags] 2 [Guid] 3148692239 [EditorId] 3148692239 [Version] 1048832 [Id] WindowsEditor(7,ImpulseTufF15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8924] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8924] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23004] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23004] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 25.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 22.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016102 seconds.
-- Loaded All Assemblies, in  0.624 seconds
+Registered in 0.018938 seconds.
+- Loaded All Assemblies, in  0.832 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.461 seconds
-Domain Reload Profiling: 1081ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 1396ms
+	BeginReloadAssembly (233ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (104ms)
-	LoadAllAssembliesAndSetupDomain (255ms)
-		LoadAssemblies (176ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (137ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (229ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (252ms)
-			TypeCache.Refresh (250ms)
-				TypeCache.ScanAssembly (227ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (299ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (462ms)
+	FinalizeReload (575ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (380ms)
+		SetupLoadedEditorAssemblies (460ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (21ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (256ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,50 +118,50 @@ Domain Reload Profiling: 1081ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.058 seconds
+- Loaded All Assemblies, in  1.302 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.983 seconds
-Domain Reload Profiling: 2034ms
-	BeginReloadAssembly (259ms)
+- Finished resetting the current domain, in  1.189 seconds
+Domain Reload Profiling: 2485ms
+	BeginReloadAssembly (316ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (642ms)
-		LoadAssemblies (492ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (787ms)
+		LoadAssemblies (619ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (305ms)
-			TypeCache.Refresh (269ms)
-				TypeCache.ScanAssembly (250ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (984ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (315ms)
+				TypeCache.ScanAssembly (292ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1191ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (751ms)
+		SetupLoadedEditorAssemblies (887ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (568ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (671ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (21ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 9.89 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 8.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3252 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3719.
-Memory consumption went from 124.9 MB to 124.9 MB.
-Total: 5.520000 ms (FindLiveObjects: 0.359100 ms CreateObjectMapping: 0.302400 ms MarkObjects: 4.721600 ms  DeleteObjects: 0.135500 ms)
+Memory consumption went from 124.7 MB to 124.6 MB.
+Total: 5.708500 ms (FindLiveObjects: 0.491600 ms CreateObjectMapping: 0.647100 ms MarkObjects: 4.376700 ms  DeleteObjects: 0.191400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -177,402 +177,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 509.357795 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(3d18386a4384b0348a4cbf06e8c17a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(3d18386a4384b0348a4cbf06e8c17a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7ab470a3f0478163632496a1ca541b41') in 0.004553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 272.943722 seconds.
-  path: Assets/Sprites/tileGrass2.png
-  artifactKey: Guid(bab314914b0d269409c7cff8d3a4191d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass2.png using Guid(bab314914b0d269409c7cff8d3a4191d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '60294cabea2ef60d06bd203cadbb70d3') in 0.127218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprites/tileSand_roadCrossing.png
-  artifactKey: Guid(fb27bef7249b2f44caadeae530074f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand_roadCrossing.png using Guid(fb27bef7249b2f44caadeae530074f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6ebbed0e4cad3dd2f834d807a53e6994') in 0.027544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Sprites/tileSand_roadCornerUL.png
-  artifactKey: Guid(763a1fdcf6b387e429f90d2c0af1d941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand_roadCornerUL.png using Guid(763a1fdcf6b387e429f90d2c0af1d941) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1765aefdab34cde6b87ad9662bb828fe') in 0.030174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Sprites/tileGrass_roadTransitionS.png
-  artifactKey: Guid(1cd0ac4fe8018674b9139ce6777296ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadTransitionS.png using Guid(1cd0ac4fe8018674b9139ce6777296ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '61fe9cfec7334073cc975fa5da691f99') in 0.032071 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/tileGrass_roadTransitionW.png
-  artifactKey: Guid(ef906f9627e528f47a1a3b17c4fb7422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadTransitionW.png using Guid(ef906f9627e528f47a1a3b17c4fb7422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8e43c50b8ba7e31f734ce4ad25c73e0a') in 0.030535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Sprites/tileGrass_roadSplitN.png
-  artifactKey: Guid(45344afd63ebdb044aa271d56831cc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadSplitN.png using Guid(45344afd63ebdb044aa271d56831cc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5976b3f9e208a00039d9f24489c5681e') in 0.029167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/tileSand2.png
-  artifactKey: Guid(54b41538c88dadc4da339e89144fb572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand2.png using Guid(54b41538c88dadc4da339e89144fb572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '96b215454d0341b6a282e96dad11cfa0') in 0.027469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/tileGrass_transitionE.png
-  artifactKey: Guid(482e28f6027fa314880a6e9ef20a5e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_transitionE.png using Guid(482e28f6027fa314880a6e9ef20a5e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4908093495065d84122feb5971a94fa2') in 0.024754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/tileSand_roadCrossingRound.png
-  artifactKey: Guid(c75136f4bc22d5d42a470e6d03e7cd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand_roadCrossingRound.png using Guid(c75136f4bc22d5d42a470e6d03e7cd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3dbfe7801d576f2285baa900b6824898') in 0.025045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/tileGrass_transitionN.png
-  artifactKey: Guid(c3f067a3298b58445a6c4599f7bc53eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_transitionN.png using Guid(c3f067a3298b58445a6c4599f7bc53eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'eeb6998ab5766731f1bb28c4308163b1') in 0.023868 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprites/tileSand_roadNorth.png
-  artifactKey: Guid(635165e67c350f84f8a452c0debcf345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand_roadNorth.png using Guid(635165e67c350f84f8a452c0debcf345) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd3d3a1140eb7fa1a0b5360d0f8451ab9') in 0.022725 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Sprites/tileSand_roadCornerLR.png
-  artifactKey: Guid(03af5d56742a8574c8a7d5a21b26fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand_roadCornerLR.png using Guid(03af5d56742a8574c8a7d5a21b26fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7aab5144178a607aca5a1e7419921766') in 0.028113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/tileGrass_roadSplitW.png
-  artifactKey: Guid(2bc7d4f7cdc5d894db51faa2d982fbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadSplitW.png using Guid(2bc7d4f7cdc5d894db51faa2d982fbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '75e12b1a0f8170c716c681d87c49a3c9') in 0.024134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/tileGrass_transitionW.png
-  artifactKey: Guid(43d0c245b13bbf24b8b10cea93328df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_transitionW.png using Guid(43d0c245b13bbf24b8b10cea93328df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '903cef80fc6f05e29577b90ed5aa3236') in 0.028317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sprites/tileGrass_roadEast.png
-  artifactKey: Guid(ad4be523b34282f4f80277d8edd25e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadEast.png using Guid(ad4be523b34282f4f80277d8edd25e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c46cca9d2b3be6023adb4ad2ba4dd9af') in 0.024200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Sprites/tileGrass_roadTransitionE_dirt.png
-  artifactKey: Guid(b8e2ad0c97694284180eaba9babe33b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadTransitionE_dirt.png using Guid(b8e2ad0c97694284180eaba9babe33b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3d1144cd1af146a3b4fb09ba2d7f7cf1') in 0.026969 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Sprites/tileGrass_roadTransitionW_dirt.png
-  artifactKey: Guid(ed893b8511f8df641a520f4b86d5c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadTransitionW_dirt.png using Guid(ed893b8511f8df641a520f4b86d5c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6f1cc655bdcdca6df39a635cb4ab18ba') in 0.027530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/tileGrass_roadCornerLL.png
-  artifactKey: Guid(0c848b2e4010bed46936fa2ebd28bf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadCornerLL.png using Guid(0c848b2e4010bed46936fa2ebd28bf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '28be334a6811d99c50cdcc448de219a0') in 0.024566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 32.489818 seconds.
-  path: Assets/Sprites/tileSand_roadSplitS.png
-  artifactKey: Guid(fa77ca74b3ba5e743a8a74d92fc3d1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand_roadSplitS.png using Guid(fa77ca74b3ba5e743a8a74d92fc3d1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '041491971f09d826ee2ba6d39bd47dcc') in 0.033976 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 78.668985 seconds.
-  path: Assets/Sprites/tileGrass_transitionW.png
-  artifactKey: Guid(43d0c245b13bbf24b8b10cea93328df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_transitionW.png using Guid(43d0c245b13bbf24b8b10cea93328df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '43cf29e6f78710841fceb68b6df2a57f') in 0.114110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Sprites/tileSand_roadCrossing.png
-  artifactKey: Guid(fb27bef7249b2f44caadeae530074f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand_roadCrossing.png using Guid(fb27bef7249b2f44caadeae530074f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '253ad42e5b6dad7f124fc3ad85f991ec') in 0.043427 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Sprites/tileSand2.png
-  artifactKey: Guid(54b41538c88dadc4da339e89144fb572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand2.png using Guid(54b41538c88dadc4da339e89144fb572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ac6e7d3bcb1d5d57fdaa787db8f85f72') in 0.040154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/tileSand1.png
-  artifactKey: Guid(1b5eafdc63387384281af7a218007ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand1.png using Guid(1b5eafdc63387384281af7a218007ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '00ca28969598d967d0f77cb620cd7a23') in 0.036560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/tileSand_roadCornerLR.png
-  artifactKey: Guid(03af5d56742a8574c8a7d5a21b26fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand_roadCornerLR.png using Guid(03af5d56742a8574c8a7d5a21b26fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c4b7dc2d0d88d8416709f7a3a6abe904') in 0.043319 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/tileSand_roadSplitS.png
-  artifactKey: Guid(fa77ca74b3ba5e743a8a74d92fc3d1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand_roadSplitS.png using Guid(fa77ca74b3ba5e743a8a74d92fc3d1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6895fce9db793c016deb65d8c953700d') in 0.031321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/tileSand_roadSplitE.png
-  artifactKey: Guid(5dbd6858f7ffc8d45a1ef91bca2ad6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand_roadSplitE.png using Guid(5dbd6858f7ffc8d45a1ef91bca2ad6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5243b2e4db6fcb6f19e2c28d397c22c5') in 0.031906 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/tileSand_roadEast.png
-  artifactKey: Guid(ac35261b5381f6d4cb9728de4f6182d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileSand_roadEast.png using Guid(ac35261b5381f6d4cb9728de4f6182d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '868e1ae9d6080373d339bdb0d4697be3') in 0.031494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.351896 seconds.
-  path: Assets/Sprites/tileGrass_roadSplitW.png
-  artifactKey: Guid(2bc7d4f7cdc5d894db51faa2d982fbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadSplitW.png using Guid(2bc7d4f7cdc5d894db51faa2d982fbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ea5367a9cf1e88e6302f11397a84e1f6') in 0.056215 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Sprites/tileGrass_roadTransitionS.png
-  artifactKey: Guid(1cd0ac4fe8018674b9139ce6777296ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadTransitionS.png using Guid(1cd0ac4fe8018674b9139ce6777296ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8337a73dc366a49e4531df52e2f01478') in 0.055274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Sprites/tileGrass_roadTransitionN.png
-  artifactKey: Guid(7c30917cfb5dd16418b809fa2da837b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadTransitionN.png using Guid(7c30917cfb5dd16418b809fa2da837b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3a955cce071bba1adbb622b490c366ce') in 0.031131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Sprites/tileGrass_roadSplitE.png
-  artifactKey: Guid(0575ac19b1f6d8c4b94ee7cb1500b12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadSplitE.png using Guid(0575ac19b1f6d8c4b94ee7cb1500b12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '06e6bced6a0f38d0a0267ef2144c2cdf') in 0.031150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Sprites/tileGrass_roadSplitN.png
-  artifactKey: Guid(45344afd63ebdb044aa271d56831cc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadSplitN.png using Guid(45344afd63ebdb044aa271d56831cc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3a9bb76ba31fdd8f94aea454b2cb0b55') in 0.033067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sprites/tileGrass_roadTransitionN_dirt.png
-  artifactKey: Guid(19f954d8862b3b046a90f885206d064e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadTransitionN_dirt.png using Guid(19f954d8862b3b046a90f885206d064e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'de05d513f11fed945da932c349763c02') in 0.034868 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/tileGrass_transitionN.png
-  artifactKey: Guid(c3f067a3298b58445a6c4599f7bc53eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_transitionN.png using Guid(c3f067a3298b58445a6c4599f7bc53eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '377702be6289000fa3ffdc45d0c65cc1') in 0.030691 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/tileGrass_roadCornerLR.png
-  artifactKey: Guid(67626e74894070f43812f821886bfa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadCornerLR.png using Guid(67626e74894070f43812f821886bfa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'da144266dd612d29b9a6a5ae30cfaa08') in 0.028852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/tileGrass1.png
-  artifactKey: Guid(031e104e4ab39c34cb636510dda1540b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass1.png using Guid(031e104e4ab39c34cb636510dda1540b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '71bfbf6cfe330adebd054eaad72899f1') in 0.028647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/tileGrass_roadEast.png
-  artifactKey: Guid(ad4be523b34282f4f80277d8edd25e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadEast.png using Guid(ad4be523b34282f4f80277d8edd25e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b8ed10e169f800b9176e373e5370aa9d') in 0.033922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Sprites/tileGrass_roadCornerUL.png
-  artifactKey: Guid(e64615b5d03bd6042bb090c6ffba55a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadCornerUL.png using Guid(e64615b5d03bd6042bb090c6ffba55a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ece467c1b2d94a02b4fe1f3e261c7e8e') in 0.031629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/tileGrass_roadTransitionW_dirt.png
-  artifactKey: Guid(ed893b8511f8df641a520f4b86d5c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tileGrass_roadTransitionW_dirt.png using Guid(ed893b8511f8df641a520f4b86d5c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '556da1b916909de0dc391cbd1d46766b') in 0.032835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
