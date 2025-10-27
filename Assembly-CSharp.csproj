@@ -61,8 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\EnemyGenome.cs" />
+    <Compile Include="Assets\Scripts\WFC Scripts\WFCController.cs" />
     <Compile Include="Assets\Scripts\BattleSimulator.cs" />
+    <Compile Include="Assets\Scripts\WFC Scripts\WFC.cs" />
     <Compile Include="Assets\Scripts\GAController.cs" />
+    <Compile Include="Assets\Scripts\WFC Scripts\WFCGrid.cs" />
+    <Compile Include="Assets\Scripts\WFC Scripts\TileSet.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
   </ItemGroup>

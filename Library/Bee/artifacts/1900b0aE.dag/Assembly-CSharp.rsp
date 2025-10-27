@@ -357,6 +357,10 @@
 "Assets/Scripts/GAController.cs"
 "Assets/Scripts/PlayerStats.cs"
 "Assets/Scripts/UIManager.cs"
+"Assets/Scripts/WFC Scripts/TileSet.cs"
+"Assets/Scripts/WFC Scripts/WFC.cs"
+"Assets/Scripts/WFC Scripts/WFCController.cs"
+"Assets/Scripts/WFC Scripts/WFCGrid.cs"
 -langversion:9.0
 /deterministic
 /optimize+
