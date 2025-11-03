@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcb20a2efa0ec043ba4559567bf2f5a, type: 3}
+  m_Name: TilesCatalog
+  m_EditorClassIdentifier: 
+  prototypes:
+  - id: Grass
+    sprite: {fileID: 21300000, guid: 031e104e4ab39c34cb636510dda1540b, type: 3}
+    allowRotate: 1
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+  - id: Grass_Curve_EN
+    sprite: {fileID: 21300000, guid: ece565dc876625d4fa588c3d33881c5f, type: 3}
+    allowRotate: 0
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+  - id: Grass_Cross
+    sprite: {fileID: 21300000, guid: 19cf77db2ec1c29418a84939001dd050, type: 3}
+    allowRotate: 1
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+  - id: Grass_Road
+    sprite: {fileID: 21300000, guid: 5a6b68509d425e74ead2dfe096eca3f6, type: 3}
+    allowRotate: 1
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0

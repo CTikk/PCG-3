@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class WFCController : MonoBehaviour
+/*public class WFCController : MonoBehaviour
 {
     [Header("Config")]
     public TileSet tileSet;
@@ -84,4 +84,4 @@ public class WFCController : MonoBehaviour
                 else { sr.color = new Color(1f, 1f, 1f, 0.2f); sr.sprite = null; } // sin colapsar: “neblina”
             }
     }
-}
+}*/

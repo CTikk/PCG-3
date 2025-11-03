@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class WFC
+/*public class WFC
 {
     private readonly TileSet _tileSet;
     private readonly WFCGrid _grid;
@@ -46,10 +46,8 @@ public class WFC
                 var remaining = prevDomain.Where(t => t != used).ToList();
                 if (remaining.Count == 0) continue;
 
-                // restauramos el resto del estado de la grilla desde cero sería lo más seguro,
-                // pero para simplicidad: reinicia grilla y re-fija los colapsos previos menos esa elección
                 ResetDomainsToAll();
-                // reaplicamos todos los colapsos de la pila (sin el último que falló)
+
                 var replay = _stack.Reverse().ToList();
                 _stack.Clear();
                 foreach (var s in replay)
@@ -173,4 +171,4 @@ public class WFC
 
     private List<TileSet.TileDef> GetAllTiles() =>
         _tileSet.tiles.ToList();
-}
+}*/
