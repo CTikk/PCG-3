@@ -175,7 +175,7 @@ MonoBehaviour:
   autoRun: 1
   stepsPerSecond: 60
   seed: 0
-  inputImage: {fileID: 2800000, guid: d71b6ab7787053b48aefd5514cd1a0f5, type: 3}
+  inputImage: {fileID: 2800000, guid: d6ebfd743e617b449add480a85f76f9e, type: 3}
   patternSize: 3
 --- !u!1 &1188354325
 GameObject:

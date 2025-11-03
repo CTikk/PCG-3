@@ -203,12 +203,17 @@ public class AutoWFCController : MonoBehaviour
     {
         int N = pattern.GetLength(0);
         Texture2D tex = new Texture2D(N, N, TextureFormat.RGBA32, false);
+        tex.filterMode = FilterMode.Point;
+        tex.wrapMode = TextureWrapMode.Clamp;
+        tex.anisoLevel = 0;
         for (int y = 0; y < N; y++)
             for (int x = 0; x < N; x++)
-                tex.SetPixel(x, y, pattern[x, y]);
-        tex.Apply();
-        return Sprite.Create(tex, new Rect(0, 0, N, N), new Vector2(0.5f, 0.5f), 1f);
+                tex.SetPixel(x, y, pattern[x, N - 1 - y]);
+        tex.Apply(false, true);
+        return Sprite.Create(tex, new Rect(0, 0, N, N), new Vector2(0.5f, 0.5f), N);
     }
+
+
 
     // Helpers para extraer filas/columnas y comparar
     private static Color[] GetRow(Color[,] pattern, int row)
