@@ -37,7 +37,7 @@ public class WFCController : MonoBehaviour
     void Update()
     {
         // Pre-colapso con click (fija una celda a un tile si pasas el mouse por encima)
-        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+        if (Input.GetMouseButtonDown(0) /*&& EventSystem.current.IsPointerOverGameObject()*/)
         {
             var world = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             int x = Mathf.RoundToInt(world.x / cellSize);
@@ -70,6 +70,14 @@ public class WFCController : MonoBehaviour
             }
             Redraw();
         }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            // reiniciar
+            _grid = new WFCGrid(width, height, tileSet.tiles);
+            _wfc = new WFC(tileSet, _grid);
+            Redraw();
+        }
     }
 
     private void Redraw()
@@ -80,7 +88,7 @@ public class WFCController : MonoBehaviour
                 var c = _grid.cells[x, y];
                 var sr = _gos[x, y].GetComponent<SpriteRenderer>();
                 if (c.domain.Count == 0) { sr.color = Color.red; sr.sprite = null; continue; }
-                if (c.domain.Count == 1) { sr.color = Color.white; sr.sprite = c.domain[0].sprite; }
+                if (c.domain.Count == 1) { sr.color = Color.white; sr.sprite = c.domain[Random.Range(0, c.domain.Count)].sprite; }
                 else { sr.color = new Color(1f, 1f, 1f, 0.2f); sr.sprite = null; } // sin colapsar: “neblina”
             }
     }
