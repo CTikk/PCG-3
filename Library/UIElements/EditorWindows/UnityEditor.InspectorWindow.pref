@@ -132,5 +132,5 @@ MonoBehaviour:
   - '{}'
   - '{}'
   - '{}'
-  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":68.44995880126953},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":1116.800048828125,"anchoredItemIndex":0,"anchorOffset":68.44995880126953}}'
+  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":323.9996643066406,"anchoredItemIndex":0,"anchorOffset":0.0}}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'

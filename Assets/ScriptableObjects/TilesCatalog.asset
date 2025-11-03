@@ -15,37 +15,13 @@ MonoBehaviour:
   prototypes:
   - id: Grass
     sprite: {fileID: 21300000, guid: 031e104e4ab39c34cb636510dda1540b, type: 3}
-    allowRotate: 1
-    weight: 1
-    north:
-      groundInner: 1
-      groundOuter: 1
-      roadInner: 0
-      roadOuter: 0
-    south:
-      groundInner: 1
-      groundOuter: 1
-      roadInner: 0
-      roadOuter: 0
-    east:
-      groundInner: 1
-      groundOuter: 1
-      roadInner: 0
-      roadOuter: 0
-    west:
-      groundInner: 1
-      groundOuter: 1
-      roadInner: 0
-      roadOuter: 0
-  - id: Grass_Curve_EN
-    sprite: {fileID: 21300000, guid: ece565dc876625d4fa588c3d33881c5f, type: 3}
     allowRotate: 0
-    weight: 1
+    weight: 2
     north:
       groundInner: 1
       groundOuter: 1
-      roadInner: 1
-      roadOuter: 1
+      roadInner: 0
+      roadOuter: 0
     south:
       groundInner: 1
       groundOuter: 1
@@ -54,8 +30,8 @@ MonoBehaviour:
     east:
       groundInner: 1
       groundOuter: 1
-      roadInner: 1
-      roadOuter: 1
+      roadInner: 0
+      roadOuter: 0
     west:
       groundInner: 1
       groundOuter: 1
@@ -109,3 +85,291 @@ MonoBehaviour:
       groundOuter: 1
       roadInner: 0
       roadOuter: 0
+  - id: Grass_Curve_ws
+    sprite: {fileID: 21300000, guid: 0c848b2e4010bed46936fa2ebd28bf85, type: 3}
+    allowRotate: 0
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+  - id: Grass_Curve_wn
+    sprite: {fileID: 21300000, guid: e64615b5d03bd6042bb090c6ffba55a7, type: 3}
+    allowRotate: 0
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+  - id: Grass_Curve_EN
+    sprite: {fileID: 21300000, guid: ece565dc876625d4fa588c3d33881c5f, type: 3}
+    allowRotate: 0
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+  - id: Grass_Curve_ES
+    sprite: {fileID: 21300000, guid: 67626e74894070f43812f821886bfa23, type: 3}
+    allowRotate: 0
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+  - id: Grass_NES
+    sprite: {fileID: 21300000, guid: 0575ac19b1f6d8c4b94ee7cb1500b12c, type: 3}
+    allowRotate: 0
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+  - id: Grass_NWS
+    sprite: {fileID: 21300000, guid: 2bc7d4f7cdc5d894db51faa2d982fbd7, type: 3}
+    allowRotate: 0
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+  - id: Grass_WEN
+    sprite: {fileID: 21300000, guid: 45344afd63ebdb044aa271d56831cc3d, type: 3}
+    allowRotate: 0
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+  - id: Grass_WES
+    sprite: {fileID: 21300000, guid: d5055a958dc5b3f46bfcda5a25dadcce, type: 3}
+    allowRotate: 0
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 0
+      roadOuter: 0
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+  - id: Grass_4
+    sprite: {fileID: 21300000, guid: 64dec05c9d827e5438cd0b8538722d8b, type: 3}
+    allowRotate: 1
+    weight: 1
+    north:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    south:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    east:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+  - id: Grass_sand_road
+    sprite: {fileID: 21300000, guid: f5213491564ba004d88b61bc96ee7e7d, type: 3}
+    allowRotate: 1
+    weight: 1
+    north:
+      groundInner: 0
+      groundOuter: 0
+      roadInner: 0
+      roadOuter: 0
+    south:
+      groundInner: 0
+      groundOuter: 0
+      roadInner: 0
+      roadOuter: 0
+    east:
+      groundInner: 2
+      groundOuter: 2
+      roadInner: 1
+      roadOuter: 1
+    west:
+      groundInner: 1
+      groundOuter: 1
+      roadInner: 1
+      roadOuter: 1
+  - id: Sand_road
+    sprite: {fileID: 21300000, guid: ac35261b5381f6d4cb9728de4f6182d3, type: 3}
+    allowRotate: 1
+    weight: 1
+    north:
+      groundInner: 2
+      groundOuter: 2
+      roadInner: 0
+      roadOuter: 0
+    south:
+      groundInner: 2
+      groundOuter: 2
+      roadInner: 0
+      roadOuter: 0
+    east:
+      groundInner: 2
+      groundOuter: 2
+      roadInner: 1
+      roadOuter: 1
+    west:
+      groundInner: 2
+      groundOuter: 2
+      roadInner: 1
+      roadOuter: 1
+  - id: Sand_cross
+    sprite: {fileID: 21300000, guid: fb27bef7249b2f44caadeae530074f35, type: 3}
+    allowRotate: 1
+    weight: 1
+    north:
+      groundInner: 2
+      groundOuter: 2
+      roadInner: 1
+      roadOuter: 1
+    south:
+      groundInner: 2
+      groundOuter: 2
+      roadInner: 1
+      roadOuter: 1
+    east:
+      groundInner: 2
+      groundOuter: 2
+      roadInner: 1
+      roadOuter: 1
+    west:
+      groundInner: 2
+      groundOuter: 2
+      roadInner: 1
+      roadOuter: 1

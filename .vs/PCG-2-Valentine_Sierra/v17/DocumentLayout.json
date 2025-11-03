@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\assets\\scripts\\wfc scripts\\autotileset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wfc scripts\\autotileset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\assets\\scripts\\wfc scripts\\wfc_auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wfc scripts\\wfc_auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|c:\\users\\norik\\source\\repos\\pcg-2-valentine_sierra\\assets\\scripts\\wfc scripts\\autowfccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wfc scripts\\autowfccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\assets\\scripts\\wfc scripts\\wfc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wfc scripts\\wfc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\assets\\scripts\\wfc scripts\\wfccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wfc scripts\\wfccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\assets\\scripts\\wfc scripts\\wfcgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,18 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\assets\\scripts\\wfc scripts\\tilescatalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wfc scripts\\tilescatalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\assets\\scripts\\wfc scripts\\autotileset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wfc scripts\\autotileset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|c:\\users\\norik\\source\\repos\\pcg-2-valentine_sierra\\assets\\scripts\\wfc scripts\\wfc_auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wfc scripts\\wfc_auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\assets\\scripts\\wfc scripts\\tileset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC52F9E2-AB3D-C323-78C1-0CDB927FE741}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wfc scripts\\tileset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,39 +46,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AutoWFCController.cs",
               "DocumentMoniker": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\AutoWFCController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WFC Scripts\\AutoWFCController.cs",
               "ToolTip": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\AutoWFCController.cs",
               "RelativeToolTip": "Assets\\Scripts\\WFC Scripts\\AutoWFCController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAQwA0AAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T14:17:43.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "WFC_Auto.cs",
               "DocumentMoniker": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\WFC_Auto.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WFC Scripts\\WFC_Auto.cs",
               "ToolTip": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\WFC_Auto.cs",
               "RelativeToolTip": "Assets\\Scripts\\WFC Scripts\\WFC_Auto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAABAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowGMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T14:16:32.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "AutoTileSet.cs",
               "DocumentMoniker": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\AutoTileSet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WFC Scripts\\AutoTileSet.cs",
               "ToolTip": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\AutoTileSet.cs",
               "RelativeToolTip": "Assets\\Scripts\\WFC Scripts\\AutoTileSet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAwAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T14:12:42.668Z",
               "EditorCaption": ""
@@ -116,7 +104,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\WFC Scripts\\Types.cs",
               "ToolTip": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\Types.cs",
               "RelativeToolTip": "Assets\\Scripts\\WFC Scripts\\Types.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T14:04:28.153Z",
               "EditorCaption": ""
@@ -129,48 +117,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\WFC Scripts\\WFCGrid.cs",
               "ToolTip": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\WFCGrid.cs",
               "RelativeToolTip": "Assets\\Scripts\\WFC Scripts\\WFCGrid.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAABAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T12:14:38.664Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WFCController.cs",
-              "DocumentMoniker": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\WFCController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WFC Scripts\\WFCController.cs",
-              "ToolTip": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\WFCController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WFC Scripts\\WFCController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T12:17:24.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WFC.cs",
-              "DocumentMoniker": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\WFC.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WFC Scripts\\WFC.cs",
-              "ToolTip": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\WFC.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WFC Scripts\\WFC.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T12:15:09.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TileSet.cs",
-              "DocumentMoniker": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\TileSet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WFC Scripts\\TileSet.cs",
-              "ToolTip": "C:\\Users\\norik\\source\\repos\\PCG-2-Valentine_Sierra\\Assets\\Scripts\\WFC Scripts\\TileSet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WFC Scripts\\TileSet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T12:13:59.666Z"
             }
           ]
         }
